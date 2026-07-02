@@ -1,0 +1,48 @@
+name: Feature request
+description: Suggest an improvement or new capability
+title: "Feature: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping shape the Raeburn AI ecosystem.
+  - type: input
+    id: repo
+    attributes:
+      label: Repository or module
+      placeholder: RaeburnAI-AgentOS, MCP Gateway, Workflow Builder, etc.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or opportunity
+      description: What problem would this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: What should be built?
+    validations:
+      required: true
+  - type: textarea
+    id: use_case
+    attributes:
+      label: Enterprise use case
+      description: Who needs this and how would they use it?
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options:
+        - Low
+        - Medium
+        - High
+        - Critical
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional context
