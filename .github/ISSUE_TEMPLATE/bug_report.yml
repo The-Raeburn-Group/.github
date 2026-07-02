@@ -1,0 +1,53 @@
+name: Bug report
+description: Report a reproducible problem
+title: "Bug: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve Raeburn AI.
+  - type: input
+    id: repo
+    attributes:
+      label: Repository
+      description: Which Raeburn AI repository is affected?
+      placeholder: RaeburnAI-Chain
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Provide clear steps to reproduce the issue.
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behaviour
+      description: What did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, runtime, browser, Docker, Node/Python versions, model provider, deployment target, etc.
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or screenshots
+      description: Add logs, screenshots, stack traces, or API responses if useful.
+      render: shell
