@@ -8,7 +8,7 @@
 
 Raeburn AI develops enterprise-grade open-source platforms for autonomous agents, workflow automation, enterprise intelligence, knowledge management, governance, compliance, and AI operations.
 
-[Website](https://www.theraeburngroup.com) · [GitHub](https://github.com/Raebu) · [RaeburnAI Chain](https://github.com/Raebu/RaeburnAI-Chain)
+[Website](https://www.theraeburngroup.com) · [GitHub](https://github.com/The-Raeburn-Group) · [RaeburnAI Chain](https://github.com/The-Raeburn-Group/RaeburnAI-Chain)
 
 </div>
 
@@ -20,26 +20,29 @@ RaeburnAI is building a modular, open-source ecosystem for organisations that wa
 
 The ecosystem combines autonomous agents, business workflow intelligence, knowledge graphs, digital twins, compliance, observability, executive briefing, and enterprise integrations into one connected platform.
 
+```text
+RaeburnAI-Chain
+├── AgentOS
+├── Workflow Intelligence
+├── Business Twin
+├── Knowledge Graph
+├── MCP Gateway
+├── AI Compliance
+├── AI Operations
+├── Executive Copilot
+├── Marketplace
+└── Workflow Builder
+```
+
 ---
 
 ## Flagship Platform
 
-### [RaeburnAI-Chain](https://github.com/Raebu/RaeburnAI-Chain)
+### [RaeburnAI-Chain](https://github.com/The-Raeburn-Group/RaeburnAI-Chain)
 
 RaeburnAI-Chain is the central enterprise AI orchestration platform. It brings together the wider RaeburnAI ecosystem into a modular operating layer for building, connecting, governing, and scaling autonomous AI systems.
 
-**Core modules:**
-
-- AgentOS
-- Workflow Intelligence
-- Business Twin
-- Knowledge Graph
-- MCP Gateway
-- AI Compliance
-- AI Operations
-- Executive Copilot
-- Marketplace
-- Workflow Builder
+**Core modules:** AgentOS, Workflow Intelligence, Business Twin, Knowledge Graph, MCP Gateway, AI Compliance, AI Operations, Executive Copilot, Marketplace, and Workflow Builder.
 
 ---
 
@@ -47,16 +50,12 @@ RaeburnAI-Chain is the central enterprise AI orchestration platform. It brings t
 
 | Project | Description |
 |---|---|
-| [RaeburnAI-AgentOS](https://github.com/Raebu/RaeburnAI-AgentOS) | Enterprise multi-agent AI orchestration platform with shared memory, MCP support, human approval workflows, and local/cloud LLM integration. |
-| [RaeburnAI-Workflow-Auditor](https://github.com/Raebu/RaeburnAI-Workflow-Auditor) | AI-powered workflow analysis platform that discovers automation opportunities, estimates ROI, and generates implementation roadmaps. |
-| [RaeburnAI-Enterprise-MCP-Server](https://github.com/Raebu/RaeburnAI-Enterprise-MCP-Server) | Production-ready MCP server connecting AI assistants to enterprise tools, databases, CRMs, cloud platforms, and business applications. |
-| [Universal-AI-Knowledge-Graph](https://github.com/Raebu/Universal-AI-Knowledge-Graph) | Enterprise semantic knowledge graph combining documents, emails, databases, source code, and business systems into an AI-searchable knowledge base. |
-| [RaeburnAI-Business-Twin](https://github.com/Raebu/RaeburnAI-Business-Twin) | AI-powered digital twin platform for modelling organisations, workflows, teams, KPIs, and operational scenarios. |
-| [RaeburnAI-Compliance-Engine](https://github.com/Raebu/RaeburnAI-Compliance-Engine) | AI governance and compliance platform supporting GDPR, ISO 42001, ISO 27001, the EU AI Act, and enterprise AI risk management. |
-| [OpenAI-Operations-Dashboard](https://github.com/Raebu/OpenAI-Operations-Dashboard) | Enterprise AI operations dashboard for monitoring prompts, model usage, token spend, latency, performance, safety, and audit logs. |
-| [RaeburnAI-Executive](https://github.com/Raebu/RaeburnAI-Executive) | AI executive assistant delivering daily business briefings, strategic insights, KPI monitoring, risk intelligence, and decision support. |
-| [RaeburnAI-Proposal-Generator](https://github.com/Raebu/RaeburnAI-Proposal-Generator) | AI proposal and solution generator producing technical proposals, implementation roadmaps, pricing, timelines, ROI estimates, and presentations. |
-| [RaeburnAI-Meeting-Intelligence](https://github.com/Raebu/RaeburnAI-Meeting-Intelligence) | AI meeting intelligence platform that extracts decisions, action items, deadlines, owners, and updates business systems. |
+| [RaeburnAI-Chain](https://github.com/The-Raeburn-Group/RaeburnAI-Chain) | The enterprise AI operating layer that unifies the RaeburnAI ecosystem. |
+| [RaeburnAI-AgentOS](https://github.com/The-Raeburn-Group/RaeburnAI-AgentOS) | Enterprise multi-agent AI orchestration platform with shared memory, MCP support, human approval workflows, and local/cloud LLM integration. |
+| [RaeburnAI-Workflow-Auditor](https://github.com/The-Raeburn-Group/RaeburnAI-Workflow-Auditor) | AI-powered workflow analysis platform that discovers automation opportunities, estimates ROI, and generates implementation roadmaps. |
+| [RaeburnAI-Enterprise-MCP-Server](https://github.com/The-Raeburn-Group/RaeburnAI-Enterprise-MCP-Server) | Production-ready MCP server connecting AI assistants to enterprise tools, databases, CRMs, cloud platforms, and business applications. |
+| [Universal-AI-Knowledge-Graph](https://github.com/The-Raeburn-Group/Universal-AI-Knowledge-Graph) | Enterprise semantic knowledge graph combining documents, emails, databases, source code, and business systems into an AI-searchable knowledge base. |
+| [RaeburnAI-Business-Twin](https://github.com/The-Raeburn-Group/RaeburnAI-Business-Twin) | AI-powered digital twin platform for modelling organisations, workflows, teams, KPIs, and operational scenarios. |
 
 ---
 
