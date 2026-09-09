@@ -6,37 +6,38 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for helping shape the Raeburn AI ecosystem.
+        Thanks for helping shape a project maintained through The Raeburn Group GitHub organisation.
   - type: input
     id: repo
     attributes:
-      label: Repository or module
-      placeholder: RaeburnAI-AgentOS, MCP Gateway, Workflow Builder, etc.
+      label: Repository or project
+      description: Which repository or project would this affect?
+      placeholder: Repository name
     validations:
       required: true
   - type: textarea
     id: problem
     attributes:
       label: Problem or opportunity
-      description: What problem would this solve?
+      description: What problem would this solve or what opportunity would it create?
     validations:
       required: true
   - type: textarea
     id: solution
     attributes:
       label: Proposed solution
-      description: What should be built?
+      description: What change or capability are you proposing?
     validations:
       required: true
   - type: textarea
     id: use_case
     attributes:
-      label: Enterprise use case
+      label: Use case
       description: Who needs this and how would they use it?
   - type: dropdown
     id: priority
     attributes:
-      label: Priority
+      label: Suggested priority
       options:
         - Low
         - Medium
@@ -46,3 +47,4 @@ body:
     id: notes
     attributes:
       label: Additional context
+      description: Include relevant examples, constraints, screenshots or links. Do not include secrets or personal/confidential data.
