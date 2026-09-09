@@ -6,13 +6,13 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for helping improve Raeburn AI.
+        Thanks for helping improve a project maintained through The Raeburn Group GitHub organisation.
   - type: input
     id: repo
     attributes:
-      label: Repository
-      description: Which Raeburn AI repository is affected?
-      placeholder: RaeburnAI-Chain
+      label: Repository or project
+      description: Which repository or project is affected?
+      placeholder: Repository name
     validations:
       required: true
   - type: textarea
@@ -44,10 +44,10 @@ body:
     id: environment
     attributes:
       label: Environment
-      description: OS, runtime, browser, Docker, Node/Python versions, model provider, deployment target, etc.
+      description: OS, runtime, browser, language/runtime versions, deployment target, provider or other relevant environment details.
   - type: textarea
     id: logs
     attributes:
       label: Logs or screenshots
-      description: Add logs, screenshots, stack traces, or API responses if useful.
+      description: Add redacted logs, screenshots, stack traces or API responses if useful. Do not include secrets or personal/confidential data.
       render: shell
