@@ -1,8 +1,11 @@
 blank_issues_enabled: false
 contact_links:
   - name: Security vulnerability
-    url: https://github.com/Raebu/.github/security
-    about: Please report security vulnerabilities privately where possible.
-  - name: Raeburn Group website
-    url: https://www.theraeburngroup.com
-    about: Learn more about The Raeburn Group.
+    url: https://trust.theraeburngroup.com/.well-known/security.txt
+    about: Please report security vulnerabilities privately using the Group's responsible-disclosure route.
+  - name: The Raeburn Group
+    url: https://theraeburngroup.com
+    about: Learn more about The Raeburn Group and its companies.
+  - name: Trust Centre
+    url: https://trust.theraeburngroup.com
+    about: Security, privacy, governance and assurance information.
