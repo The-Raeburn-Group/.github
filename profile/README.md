@@ -47,11 +47,10 @@ Much of the public engineering work in this organisation sits within **Raeburn T
 
 RaeburnAI is an important part of our technology work, but it is **not the identity of The Raeburn Group as a whole**.
 
-Selected projects include:
+Currently published projects include:
 
 | Project | Purpose |
 |---|---|
-| [RaeburnAI-Chain](https://github.com/The-Raeburn-Group/RaeburnAI-Chain) | Modular orchestration layer connecting the wider RaeburnAI ecosystem |
 | [RaeburnAI-AgentOS](https://github.com/The-Raeburn-Group/RaeburnAI-AgentOS) | Multi-agent orchestration and human-controlled AI workflows |
 | [RaeburnAI-Enterprise-MCP-Server](https://github.com/The-Raeburn-Group/RaeburnAI-Enterprise-MCP-Server) | MCP connectivity for enterprise tools and systems |
 | [Universal-AI-Knowledge-Graph](https://github.com/The-Raeburn-Group/Universal-AI-Knowledge-Graph) | Semantic knowledge infrastructure across business information sources |
