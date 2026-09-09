@@ -1,66 +1,92 @@
-<div align="center">
+<p align="center">
+  <img src="https://avatars.githubusercontent.com/u/205276126?s=180&v=4" width="108" alt="The Raeburn Group logo" />
+</p>
 
-# The Raeburn Group
+<h1 align="center">The Raeburn Group</h1>
 
-**Official GitHub organisation for The Raeburn Group**
+<p align="center"><strong>Strategy · Technology · Automation · Talent · Ventures · Digital Infrastructure</strong></p>
 
-Strategy · Technology · Automation · Talent · Ventures · Digital Infrastructure
-
-[Corporate website](https://theraeburngroup.com) · [Trust Centre](https://trust.theraeburngroup.com) · [System status](https://status.theraeburngroup.com) · [Contact](mailto:contact@theraeburngroup.com)
-
-</div>
+<p align="center">
+  <a href="https://theraeburngroup.com">Corporate website</a> ·
+  <a href="https://trust.theraeburngroup.com">Trust Centre</a> ·
+  <a href="https://status.theraeburngroup.com">System Status</a> ·
+  <a href="mailto:contact@theraeburngroup.com">Contact</a>
+</p>
 
 ---
 
-## Group
+## Group overview
 
-The Raeburn Group is a UK holding group with specialist businesses across consulting, software and technology, automation, recruitment, venture development and digital infrastructure.
+**The Raeburn Group** is a UK holding group with specialist businesses across consulting, software and technology, automation, recruitment, venture development and digital infrastructure.
 
-This organisation is the Group's public engineering presence. It contains selected software projects, technical standards and open-source work. It does **not** represent the full commercial activities of the Group; those are described through the relevant company websites.
+This GitHub organisation is the Group's public engineering and open-source presence. It contains selected software projects, developer tooling, shared standards and technical documentation. It is not intended to represent the relative size or commercial importance of each Group company.
 
-## Portfolio
+## Group companies
 
-| Company | Principal focus | Website |
+| Company | Focus | Website |
 |---|---|---|
 | **Raeburn Consulting** | Strategy, transformation, AI and technology consulting | [consulting.theraeburngroup.com](https://consulting.theraeburngroup.com) |
 | **Raeburn Technologies** | Software, platforms, AI systems and digital products | [technology.theraeburngroup.com](https://technology.theraeburngroup.com) |
-| **Raeburn Automation Labs** | Automation, agents and operational tooling | [automationlabs.theraeburngroup.com](https://automationlabs.theraeburngroup.com) |
+| **Raeburn Automation Labs** | Human-controlled automation, agents and operational tooling | [automationlabs.theraeburngroup.com](https://automationlabs.theraeburngroup.com) |
 | **TRG Recruitment** | Recruitment, executive search and talent intelligence | [recruitment.theraeburngroup.com](https://recruitment.theraeburngroup.com) |
 | **Raeburn Ventures** | Opportunity validation, venture development and operating support | [ventures.theraeburngroup.com](https://ventures.theraeburngroup.com) |
 | **Raeburn Digital Assets** | Tokenisation, blockchain architecture and digital-asset infrastructure | [digitalassets.theraeburngroup.com](https://digitalassets.theraeburngroup.com) |
 
-## Public engineering
+---
 
-The public repositories currently visible here are weighted towards selected AI, automation and knowledge-infrastructure work maintained primarily through **Raeburn Technologies** and **Raeburn Automation Labs**. This reflects what is presently published as open-source or public engineering work, rather than the overall balance of the Group's businesses.
+## Engineering
 
-### Selected projects
+Public engineering work is primarily maintained through **Raeburn Technologies** and **Raeburn Automation Labs**. Each repository states its own maturity, support position, licence and deployment assumptions.
+
+### Selected public projects
+
+| Project | Area | Current position |
+|---|---|---|
+| [Universal AI Knowledge Graph](https://github.com/The-Raeburn-Group/Universal-AI-Knowledge-Graph) | Enterprise knowledge systems | Foundation / active development |
+| [RaeburnAI Enterprise MCP Server](https://github.com/The-Raeburn-Group/RaeburnAI-Enterprise-MCP-Server) | Enterprise integration | Controlled-pilot foundation / active development |
+| [RaeburnAI AgentOS](https://github.com/The-Raeburn-Group/RaeburnAI-AgentOS) | Agent orchestration | Foundation / active development |
+
+<details>
+<summary><strong>More published technology projects</strong></summary>
+
+<br />
 
 | Project | Area |
 |---|---|
-| [RaeburnAI-AgentOS](https://github.com/The-Raeburn-Group/RaeburnAI-AgentOS) | Multi-agent orchestration and controlled AI workflows |
-| [RaeburnAI-Enterprise-MCP-Server](https://github.com/The-Raeburn-Group/RaeburnAI-Enterprise-MCP-Server) | Model Context Protocol connectivity for enterprise systems |
-| [Universal-AI-Knowledge-Graph](https://github.com/The-Raeburn-Group/Universal-AI-Knowledge-Graph) | Semantic knowledge infrastructure |
-| [RaeburnAI-Business-Twin](https://github.com/The-Raeburn-Group/RaeburnAI-Business-Twin) | Business and workflow modelling |
-| [RaeburnAI-Workflow-Auditor](https://github.com/The-Raeburn-Group/RaeburnAI-Workflow-Auditor) | Workflow analysis and automation-opportunity discovery |
+| [RaeburnAI Business Twin](https://github.com/The-Raeburn-Group/RaeburnAI-Business-Twin) | Operational modelling and scenario analysis |
+| [RaeburnAI Workflow Auditor](https://github.com/The-Raeburn-Group/RaeburnAI-Workflow-Auditor) | Workflow analysis and automation-opportunity discovery |
 
-**RaeburnAI** is a technology initiative within the wider Raeburn Technologies portfolio. It is not the corporate identity of The Raeburn Group.
+</details>
 
-## Repository governance
+### RaeburnAI
 
-Each public repository is expected to identify its maintainer, licence, current maturity, security policy, deployment assumptions and known limitations. Repository-specific documentation is the authoritative source for the status of an individual project.
+RaeburnAI is a technology initiative within the wider **Raeburn Technologies** portfolio. It covers selected work in enterprise AI infrastructure, workflow automation, knowledge systems, digital twins and Model Context Protocol integrations. It is one part of the Group's engineering activity, not the identity of The Raeburn Group as a whole.
 
-Group-wide contribution, conduct and security defaults are maintained through this organisation's `.github` repository.
+---
 
-## Security & assurance
+## Engineering principles
 
-The Group publishes security, privacy, governance and operational-status information through its corporate trust surfaces:
+Across Group technology projects, we aim to maintain clear ownership and documentation, proportionate security controls, explicit maturity statements, human oversight for high-impact automation, maintainable and interoperable systems, and evidence-led security and assurance claims.
 
-- [Trust Centre](https://trust.theraeburngroup.com)
-- [System status](https://status.theraeburngroup.com)
-- [Corporate website](https://theraeburngroup.com)
+Repository documentation distinguishes between implemented controls, planned work and independent certification or assurance.
 
-Security and assurance statements are intended to distinguish implemented controls from planned work and from independent certification or external assurance. Vulnerability reports should follow the responsible-disclosure route published through the Trust Centre.
+## Trust & governance
+
+| Resource | Purpose |
+|---|---|
+| [Trust Centre](https://trust.theraeburngroup.com) | Security, privacy, governance and assurance information |
+| [System Status](https://status.theraeburngroup.com) | Current service-status information |
+| [Corporate website](https://theraeburngroup.com) | Group, companies, services and corporate information |
+
+Security or vulnerability reports should follow the responsible-disclosure route published through the Trust Centre.
+
+---
 
 ## Contact
 
-Business, partnership, technology and professional enquiries: **contact@theraeburngroup.com**
+For business, partnership, technology or professional enquiries: **[contact@theraeburngroup.com](mailto:contact@theraeburngroup.com)**
+
+<p align="center">
+  <strong>The Raeburn Group</strong><br />
+  <a href="https://theraeburngroup.com">theraeburngroup.com</a>
+</p>
