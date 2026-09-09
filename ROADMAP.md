@@ -1,58 +1,58 @@
-# RaeburnAI Ecosystem Roadmap
+# The Raeburn Group Engineering & Open Source Roadmap
 
-This roadmap describes the direction of the RaeburnAI open-source ecosystem.
+This roadmap describes the direction of the engineering and open-source presence maintained through **The Raeburn Group** GitHub organisation.
 
-## Phase 1 — Foundation
+It is intentionally broader than any single product family. Individual repositories may maintain their own product roadmaps and those repository-specific roadmaps take precedence for detailed delivery plans.
 
-- Standardise repository documentation
-- Add common contribution, security, conduct, issue, and pull request templates
-- Establish RaeburnAI-Chain as the flagship platform entry point
-- Cross-link all core modules
-- Define module contracts and shared terminology
+## 1. Corporate engineering foundation
 
-## Phase 2 — Platform Integration
+- Keep the organisation profile centred on The Raeburn Group and its portfolio.
+- Maintain clear ownership, contribution, security and disclosure guidance.
+- Use consistent repository documentation and maturity language.
+- Distinguish public open-source work from private/internal repositories.
+- Keep repository descriptions, links and published project lists current.
 
-- Connect AgentOS, Business Twin, Knowledge Graph, Workflow Auditor, and Enterprise MCP through RaeburnAI-Chain
-- Add shared authentication and RBAC patterns
-- Add shared audit logging and observability patterns
-- Define plugin and connector SDKs
-- Add module manifests for every core project
+## 2. Security, governance & assurance
 
-## Phase 3 — Developer Experience
+- Apply secure-by-design defaults appropriate to each project.
+- Keep dependencies and build chains reviewable and reproducible where practical.
+- Use CI, static analysis, dependency review and secret-exposure controls where they add value.
+- Retain human approval for high-impact automated actions.
+- Keep security, privacy and assurance claims evidence-led.
+- Do not imply certification, independent assurance or production maturity without supporting evidence.
 
-- Publish a documentation portal
-- Add quick-start examples
-- Add sample deployments
-- Add SDK documentation
-- Add CLI and installer documentation
-- Add demo workflows and reference architectures
+## 3. Developer experience
 
-## Phase 4 — Enterprise Readiness
+- Improve quick starts, architecture documentation and deployment guidance.
+- Keep issue and pull-request templates useful across the Group portfolio.
+- Publish examples and reference implementations where appropriate.
+- Make project maturity, licence and support expectations clear in each repository.
 
-- Add CI/CD hardening
-- Add CodeQL and dependency scanning
-- Add release automation
-- Add Docker and deployment templates
-- Add security and compliance documentation
-- Add production runbooks
+## 4. Portfolio clarity
 
-## Phase 5 — Community and Marketplace
+The organisation may contain projects associated with different Group businesses and initiatives, including:
 
-- Enable Discussions on flagship repositories
-- Add good-first-issue labels
-- Publish contributor guides
-- Create marketplace templates for agents, connectors, workflows, and dashboards
-- Add public demo videos and screenshots
+- **Raeburn Technologies** — software, platforms, AI systems and digital products.
+- **Raeburn Automation Labs** — automation, agents and operational tooling.
+- **Raeburn Consulting** — selected technology assets supporting consulting and transformation delivery.
+- **Raeburn Ventures** — selected venture-building technology where public development is appropriate.
+- **Raeburn Digital Assets** — selected digital-infrastructure and blockchain work where appropriate.
+- **RaeburnAI** — a technology and open-source initiative within the Group's technology portfolio, not the identity of the Group as a whole.
 
-## Flagship Modules
+## 5. Releases & maintainability
 
-- RaeburnAI-Chain
-- RaeburnAI-AgentOS
-- RaeburnAI-Enterprise-MCP-Server
-- Universal-AI-Knowledge-Graph
-- RaeburnAI-Business-Twin
-- RaeburnAI-Workflow-Auditor
+- Use versioned releases for projects that reach meaningful public milestones.
+- Maintain changelogs where release history matters.
+- Archive or clearly label superseded experiments rather than leaving ambiguous public surfaces.
+- Remove or label links to projects that are not yet published.
+- Keep project status statements proportionate to demonstrated readiness.
 
-## Mission
+## 6. Community & collaboration
 
-Build an open, modular, enterprise-ready operating layer for AI adoption across organisations.
+- Welcome good-faith issues, documentation improvements and pull requests on repositories that accept external contributions.
+- Use clear conduct and security-reporting routes.
+- Add contributor-friendly labels and discussions only where there is an active maintenance path.
+
+## Current priority
+
+Keep the organisation credible as a **Group-level engineering presence**: clear corporate identity, accurate project status, working links, responsible security language and strong separation between the Group itself and individual product families such as RaeburnAI.
