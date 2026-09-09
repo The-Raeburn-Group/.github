@@ -1,55 +1,60 @@
-# Contributing to Raeburn AI
+# Contributing to The Raeburn Group repositories
 
-Thank you for contributing to the Raeburn AI open-source ecosystem.
+Thank you for your interest in contributing to projects maintained through **The Raeburn Group** GitHub organisation.
 
-Raeburn AI projects focus on enterprise-grade AI infrastructure, autonomous agents, workflow automation, knowledge graphs, compliance, operations, and executive intelligence.
+This organisation contains work from different parts of the Group, including software, AI, automation, developer tooling and selected digital-infrastructure projects. Some repositories are public and open to outside contributions; others are private, internal, experimental or have repository-specific contribution rules.
 
-## How to Contribute
+Always follow the guidance in the individual repository first. Where a repository does not provide its own contribution policy, this document is the default.
 
-You can help by:
+## How to contribute
 
-- Reporting bugs
-- Suggesting features
-- Improving documentation
-- Adding examples
-- Building connectors
-- Creating agents, workflows, and templates
-- Reviewing issues and pull requests
+Depending on the repository, useful contributions may include:
 
-## Development Principles
+- reporting reproducible bugs;
+- suggesting focused improvements;
+- improving documentation and examples;
+- adding or improving tests;
+- proposing integrations, connectors or tooling;
+- improving accessibility, security or maintainability;
+- reviewing issues and pull requests where appropriate.
+
+## Development principles
 
 Contributions should be:
 
-- Secure by design
-- Modular and maintainable
-- Clear and well documented
-- Tested where practical
-- Enterprise-friendly
-- Respectful of privacy and compliance requirements
+- secure by design;
+- clear, maintainable and proportionate to the project;
+- documented where behaviour or assumptions change;
+- tested where practical;
+- respectful of privacy, data protection and confidentiality;
+- explicit about operational or deployment assumptions;
+- free from unnecessary vendor lock-in where a simpler interoperable approach is available.
 
-## Pull Request Checklist
+## Pull request checklist
 
-Before opening a pull request, please check:
+Before opening a pull request, check that:
 
-- The change has a clear purpose
-- Documentation has been updated where needed
-- Tests or examples have been added where appropriate
-- No secrets, credentials, tokens, or private data are committed
-- The change does not introduce unnecessary vendor lock-in
+- the change has a clear purpose;
+- repository-specific instructions have been followed;
+- documentation has been updated where needed;
+- tests or examples have been added or updated where appropriate;
+- no secrets, credentials, tokens, personal data or confidential information are committed;
+- security and privacy implications have been considered;
+- maturity or production-readiness claims are supported by evidence.
 
-## Commit Style
+## Commit style
 
-Use clear commit messages, for example:
+Use concise, descriptive commit messages. Examples:
 
-- `Add MCP connector registry`
-- `Fix workflow audit scoring`
-- `Improve README quick start`
-- `Add compliance control mapping`
+- `fix: validate connector configuration`
+- `docs: clarify deployment prerequisites`
+- `test: add workflow regression coverage`
+- `security: tighten default permissions`
 
 ## Security
 
-Please do not report security issues through public GitHub issues. See `SECURITY.md`.
+Do not report suspected vulnerabilities through public GitHub issues. See `SECURITY.md` and use the responsible-disclosure route described there.
 
 ## Licence
 
-By contributing, you agree that your contributions will be licensed under the licence used by the relevant repository.
+The licence for each repository is authoritative for that project. By contributing, you agree that your contribution may be distributed under the licence and contribution terms of the repository receiving it.
