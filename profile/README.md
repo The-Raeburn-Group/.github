@@ -1,136 +1,109 @@
 <div align="center">
 
-# Raeburn AI
+# The Raeburn Group
 
-### Enterprise Open Source AI
+### Strategy · Technology · Automation · Talent · Ventures · Digital Infrastructure
 
-**Build. Connect. Govern. Scale.**
+**Commercial roots in the 1870s. Built for what comes next.**
 
-Raeburn AI develops enterprise-grade open-source platforms for autonomous agents, workflow automation, enterprise intelligence, knowledge management, governance, compliance, and AI operations.
-
-[Website](https://www.theraeburngroup.com) · [GitHub](https://github.com/The-Raeburn-Group) · [RaeburnAI Chain](https://github.com/The-Raeburn-Group/RaeburnAI-Chain)
+[Website](https://theraeburngroup.com) · [Trust Centre](https://trust.theraeburngroup.com) · [Status](https://status.theraeburngroup.com) · [Contact](mailto:contact@theraeburngroup.com)
 
 </div>
 
 ---
 
-## The Enterprise AI Operating Layer
+## About The Raeburn Group
 
-RaeburnAI is building a modular, open-source ecosystem for organisations that want to design, deploy, govern, and operate AI systems across people, data, workflows, and business applications.
+The Raeburn Group is a UK holding group bringing together specialist businesses across consulting, software and technology, automation, recruitment, venture building and digital infrastructure.
 
-The ecosystem combines autonomous agents, business workflow intelligence, knowledge graphs, digital twins, compliance, observability, executive briefing, and enterprise integrations into one connected platform.
+This GitHub organisation is the Group's public engineering and open-source presence. It is where selected technology platforms, developer tools, shared standards and open-source projects are developed and maintained.
 
-```text
-RaeburnAI-Chain
-├── AgentOS
-├── Workflow Intelligence
-├── Business Twin
-├── Knowledge Graph
-├── MCP Gateway
-├── AI Compliance
-├── AI Operations
-├── Executive Copilot
-├── Marketplace
-└── Workflow Builder
-```
+Our operating model is straightforward:
+
+**Understand → Design → Build → Operate & improve**
 
 ---
 
-## Flagship Platform
+## Our companies
 
-### [RaeburnAI-Chain](https://github.com/The-Raeburn-Group/RaeburnAI-Chain)
-
-RaeburnAI-Chain is the central enterprise AI orchestration platform. It brings together the wider RaeburnAI ecosystem into a modular operating layer for building, connecting, governing, and scaling autonomous AI systems.
-
-**Core modules:** AgentOS, Workflow Intelligence, Business Twin, Knowledge Graph, MCP Gateway, AI Compliance, AI Operations, Executive Copilot, Marketplace, and Workflow Builder.
+| Company | Focus | Website |
+|---|---|---|
+| **Raeburn Consulting** | Strategy, transformation, AI and technology consulting | [consulting.theraeburngroup.com](https://consulting.theraeburngroup.com) |
+| **Raeburn Technologies** | Software, platforms, AI systems and digital products | [technology.theraeburngroup.com](https://technology.theraeburngroup.com) |
+| **Raeburn Automation Labs** | Human-controlled automation, agents and operational tooling | [automationlabs.theraeburngroup.com](https://automationlabs.theraeburngroup.com) |
+| **TRG Recruitment** | Recruitment, executive search and talent intelligence | [recruitment.theraeburngroup.com](https://recruitment.theraeburngroup.com) |
+| **Raeburn Ventures** | Opportunity validation, venture building and operating support | [ventures.theraeburngroup.com](https://ventures.theraeburngroup.com) |
+| **Raeburn Digital Assets** | Tokenisation, blockchain architecture and digital-asset infrastructure for practical use cases | [digitalassets.theraeburngroup.com](https://digitalassets.theraeburngroup.com) |
 
 ---
 
-## Core Projects
+## Technology & open source
 
-| Project | Description |
+Much of the public engineering work in this organisation sits within **Raeburn Technologies** and **Raeburn Automation Labs**.
+
+### RaeburnAI
+
+**RaeburnAI** is a technology and open-source initiative within the Group's technology portfolio. It focuses on modular enterprise AI infrastructure, including autonomous agents, workflow intelligence, knowledge graphs, digital twins, MCP integrations, governance and AI operations.
+
+RaeburnAI is an important part of our technology work, but it is **not the identity of The Raeburn Group as a whole**.
+
+Selected projects include:
+
+| Project | Purpose |
 |---|---|
-| [RaeburnAI-Chain](https://github.com/The-Raeburn-Group/RaeburnAI-Chain) | The enterprise AI operating layer that unifies the RaeburnAI ecosystem. |
-| [RaeburnAI-AgentOS](https://github.com/The-Raeburn-Group/RaeburnAI-AgentOS) | Enterprise multi-agent AI orchestration platform with shared memory, MCP support, human approval workflows, and local/cloud LLM integration. |
-| [RaeburnAI-Workflow-Auditor](https://github.com/The-Raeburn-Group/RaeburnAI-Workflow-Auditor) | AI-powered workflow analysis platform that discovers automation opportunities, estimates ROI, and generates implementation roadmaps. |
-| [RaeburnAI-Enterprise-MCP-Server](https://github.com/The-Raeburn-Group/RaeburnAI-Enterprise-MCP-Server) | Production-ready MCP server connecting AI assistants to enterprise tools, databases, CRMs, cloud platforms, and business applications. |
-| [Universal-AI-Knowledge-Graph](https://github.com/The-Raeburn-Group/Universal-AI-Knowledge-Graph) | Enterprise semantic knowledge graph combining documents, emails, databases, source code, and business systems into an AI-searchable knowledge base. |
-| [RaeburnAI-Business-Twin](https://github.com/The-Raeburn-Group/RaeburnAI-Business-Twin) | AI-powered digital twin platform for modelling organisations, workflows, teams, KPIs, and operational scenarios. |
+| [RaeburnAI-Chain](https://github.com/The-Raeburn-Group/RaeburnAI-Chain) | Modular orchestration layer connecting the wider RaeburnAI ecosystem |
+| [RaeburnAI-AgentOS](https://github.com/The-Raeburn-Group/RaeburnAI-AgentOS) | Multi-agent orchestration and human-controlled AI workflows |
+| [RaeburnAI-Enterprise-MCP-Server](https://github.com/The-Raeburn-Group/RaeburnAI-Enterprise-MCP-Server) | MCP connectivity for enterprise tools and systems |
+| [Universal-AI-Knowledge-Graph](https://github.com/The-Raeburn-Group/Universal-AI-Knowledge-Graph) | Semantic knowledge infrastructure across business information sources |
+| [RaeburnAI-Business-Twin](https://github.com/The-Raeburn-Group/RaeburnAI-Business-Twin) | Digital-twin modelling for organisations, workflows and operational scenarios |
+| [RaeburnAI-Workflow-Auditor](https://github.com/The-Raeburn-Group/RaeburnAI-Workflow-Auditor) | Workflow analysis and automation-opportunity discovery |
 
 ---
 
-## What We Build
+## How we build
 
-- Autonomous AI agents
-- Enterprise AI orchestration
-- Workflow automation
-- AI governance and compliance
-- Knowledge graphs and semantic search
-- Digital business twins
-- MCP servers and connectors
-- Executive intelligence systems
-- AI operations dashboards
-- Open-source enterprise platforms
+Across Group technology projects, we aim for engineering that is:
 
----
-
-## Design Principles
-
-- **Open source by default**
-- **Enterprise-ready architecture**
-- **Modular and composable**
+- **Useful in real operating environments**
 - **Secure by design**
-- **API-first**
-- **Human-in-the-loop where needed**
-- **Cloud, self-hosted, and local-first options**
-- **Built for real business workflows**
+- **Evidence-led and transparent about maturity**
+- **Human-controlled where automation creates material decisions or actions**
+- **Modular and interoperable**
+- **API-first where appropriate**
+- **Designed to avoid unnecessary platform lock-in**
+- **Documented for maintainability and responsible reuse**
+
+Individual repositories may have different maturity, deployment status and licence terms. Refer to each repository's README, licence, security policy and release information for the authoritative status of that project.
 
 ---
 
-## Technology Focus
+## Trust, security & governance
 
-- Python
-- TypeScript
-- FastAPI
-- Next.js
-- PostgreSQL
-- Supabase
-- Docker
-- Kubernetes
-- LangChain
-- LangGraph
-- Model Context Protocol
-- Retrieval-Augmented Generation
-- Multi-agent systems
-- Local and cloud LLMs
+The Group maintains public information on security, privacy, responsible technology and operational status through its corporate trust surfaces.
+
+- **Trust Centre:** [trust.theraeburngroup.com](https://trust.theraeburngroup.com)
+- **System Status:** [status.theraeburngroup.com](https://status.theraeburngroup.com)
+- **Corporate website:** [theraeburngroup.com](https://theraeburngroup.com)
+
+We distinguish clearly between controls that are implemented, repository-specific controls, planned work and independent certifications or assurance that have not yet been obtained.
 
 ---
 
-## Open Source Mission
+## Working with us
 
-Our mission is to make enterprise AI infrastructure more open, transparent, practical, and accessible.
+We welcome appropriate collaboration across software, AI, automation, enterprise transformation, recruitment technology and venture development.
 
-We believe organisations should be able to build powerful AI systems without being locked into closed platforms, opaque workflows, or isolated tools.
+For business, partnership, technology or professional enquiries:
 
-RaeburnAI exists to help teams move from AI experiments to production-ready AI operations.
-
----
-
-## Get Involved
-
-- Star the projects you find useful
-- Open issues and feature requests
-- Contribute documentation
-- Submit pull requests
-- Build connectors, agents, and workflows
-- Share ideas for enterprise AI use cases
+**contact@theraeburngroup.com**
 
 ---
 
 <div align="center">
 
-**Raeburn AI**
+**The Raeburn Group**  
+Strategy · Technology · Automation · Talent · Ventures · Digital Infrastructure
 
-Building the future of enterprise AI, one open-source project at a time.
+[theraeburngroup.com](https://theraeburngroup.com)
 
 </div>
